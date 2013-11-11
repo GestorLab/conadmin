@@ -1,0 +1,246 @@
+html, body{
+    height: 100%;
+	min-width: 851px;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: normal 10px Verdana, Arial, Times;
+}
+input{
+	outline: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+/********* FILTRO ******************************************/
+#filtroBuscar, #cp_tit, .cp_tit{
+	background-color: #004492;
+	color: #FFF;
+	padding: 3px;
+}
+#cp_sub_tit {
+	width: 814px; 
+	background-color: #b1c0c7;
+	margin: 15px 9px 4px 24px; 
+	padding: 4px; 
+	font-weight: bold; 
+}
+#cp_sub_sub_tit {
+	width: 814px; 
+	background-color: #ffe07b;
+	margin: 15px 9px 4px 24px; 
+	padding: 4px; 
+	font-weight: bold; 
+}
+#cp_tit a, #cp_tit a:hover, .cp_tit a, .cp_tit a:hover{
+	color: #FFF;	
+}
+#filtroBuscar table tr td, #cp_tit, .cp_tit, #filtroRapido table tr td{
+	text-align:left;
+	font-weight: bold;
+	font-size:10px;
+	color:#FFF;
+}
+#filtroBuscar .botao{
+	background-color: #FFF;	
+	height: 20px;
+}
+#filtroBuscar #filtroRapido{
+	background-color: #0065D5;
+	width:100%; 
+	display:none;
+}
+/********* FIM - FILTRO ************************************/
+
+/********* MENU AR *****************************************/
+#menu_ar, #menu_ar ul li{
+	height: 14px;
+}
+#menu_ar{
+	background-color: #E2E7ED;
+}
+#menu_ar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu_ar ul li{
+	float: left;
+	padding: 0 7px 0 7px;
+}
+#menu_ar ul li span{
+	font-weight: bold;
+	color: #00882B;
+}
+#menu_ar ul .color1{
+	background-color: #0065D5;
+}
+#menu_ar ul .color1, #menu_ar ul .color1 a{
+	color: #FFF;
+}
+#menu_ar #OnOff{
+	float: right;
+	margin-right: 5px;
+}
+#menu_ar #OnOff li{
+	padding: 0 0 0 2px;
+}
+/********* FIM - MENU AR ***********************************/
+
+/************ CONTEUDO ************************************/
+#conteudo{
+	width:100%;
+	padding-top:5px;
+}
+#cp_tit, .cp_tit{
+	margin:5px 0 5px 0;
+	padding:5px;
+}
+.cp_botao, #cp_botao{
+	width:853px;
+}
+#tableAvancada .titulo{
+	padding: 0 30px 0 30px;
+}
+#tableAvancada .border{
+	padding: 0 30px;
+	border-right:1px #FFF solid
+}
+#tableAvancada .espDireita, #tableAvancada .espDireita2{
+	padding-right:25px; 	
+}
+#tableAvancada .espEsquerda{
+	padding-left:25px; 
+}
+
+#tabelaInicial, #tabelaColunas{
+	width: 100%;
+}
+#tabelaInicial{
+	background-color: #004492;
+	color: #FFF;
+}
+#tabelaInicial tr td, .quadroAviso .tit{ padding: 5px; }
+#tabelaInicial tr #tbIni_l1_cl1, .quadroAviso .tit{ 	font-weight: bold; }
+#tabelaInicial tr #tbIni_l1_cl2{ 	text-align:right; }
+#tabelaColunas tr #tbCol_l1_cl1{	
+	width: 350px;
+}
+.quadroAviso, .quadroAvisoAniversario, .quadroAviso #quadroAvisoCalendario tr td:hover{
+	border: 1px #004492 solid;
+}			
+.quadroAviso, .quadroAvisoAniversario, .quadroAvisoPessoa, .alerta{
+	margin: 5px 0 0 0;
+}
+.quadroAviso p, .quadroAvisoAniversario p{
+	margin: 0;
+}
+.quadroAviso th{
+	text-align:left;
+}
+.quadroAviso .tit{
+	background-color: #004492;
+	margin: 0;
+	color: #FFF;
+	cursor: normal;
+}
+.quadroAviso .tit a{
+	cursor:pointer;
+}
+.quadroAviso #quadroAvisoCalendario, .quadroAvisoPessoa{
+	width: 100%;
+	font-size: 9px;
+}
+.quadroAviso #quadroAvisoCalendario tr th, .quadroAviso #quadroAvisoCalendario tr td, .quadroAvisoPessoa p{
+	text-align:center;
+	margin: 0;
+}
+.quadroAviso #quadroAvisoCalendario tr td{
+	border: 1px #FFF solid;
+}
+.quadroAviso #quadroAvisoCalendario tr th{
+	background-color: #82BDFF;
+}
+.quadroAviso #quadroAvisoCalendario .quadroAvisoCalendarioMes th{
+	background-color: #FFF;
+}
+.quadroAviso #quadroAvisoAgenda tr:hover td{
+	background-color: #82BDFF;
+}	
+.quadroAviso #quadroAvisoAgenda tr .quadroAvisoAgendaData, .alerta{
+	text-align:center;
+}
+.quadroAviso #quadroAvisoAgenda tr .quadroAvisoAgendaCliente, .quadroAviso #quadroAvisoAgenda tr .quadroAvisoAgendaDesc{
+	padding: 1px 5px 1px 2px;
+}
+.quadroAvisoAniversario{
+	background-image: url(../img/estrutura_sistema/ico_bolo.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 10px;
+	border-color: #FDBF68;
+	background-color: #FFF3CB;
+	padding: 5px 5px 5px 25px;
+	text-align:justify;
+	height: 35px;		
+	width: 270px;
+}
+.quadroAvisoPessoa, .alerta{
+	background-color: #FFE07B;
+	padding: 5px 0 5px 0;
+}
+#quadroAvisoOrdem, #quadroAvisoOrdemUsuario{
+	width:100%;
+}
+#quadroAvisoOrdem tr th, #quadroAvisoOrdemUsuario tr th{
+	text-align:left;
+}
+#quadroAvisoOrdem tr td, #quadroAvisoOrdemUsuario tr td{
+	padding-right:5px;
+	width:auto;
+}
+#quadroAvisoCalendario tr td a:hover{
+	text-decoration:none;
+}
+#tabelaColunas tr #tbCol_l1_cl2 .quadroAviso{
+	margin-left: 0;
+}
+.descricao b{
+	color: #000;
+	font-size: 16px;
+	text-align: right;	
+}
+/************ FIM CONTEUDO ************************************/
+
+
+/********************** CDA ********************************/
+#conteudo #quadroIndex #menuIndex
+{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+}
+#conteudo #quadroIndex #menuIndex a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+#conteudo #quadroIndex #menuIndex img
+{
+	padding-bottom: 5px;
+}
+#conteudo #quadroIndex #menuIndex tr td
+{
+	padding: 5px;
+}
+#carregandoQuadro
+{
+	background-color: #C10000; 
+	color: #FFF; 
+	padding: 3px 10px 3px 10px; 
+	font-weight: bold; 
+	text-align:right; 
+	display: none;
+}

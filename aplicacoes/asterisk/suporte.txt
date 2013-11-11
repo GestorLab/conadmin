@@ -1,0 +1,78 @@
+#!/usr/bin/php
+<?php
+	set_time_limit(60);
+
+	include ("phpagi.php");
+	include ("config.php");
+
+	$agi = new AGI();
+
+	$agi->answer(); //responde a chamada no canal de entrada
+
+	$agi->stream_file("access-password","#"); //reproduz "Por Favor digite a senha seguido da tecla quadrado #"
+
+	$result = $agi->get_data('beep', 3000, 20); //captura os numeros digitados
+	$keys = $result['result']; //Armazena o resultado da captura.
+
+	# Nessa seção o script vai fazer a verificação dos digitos dentro do Bando de Dados para autenticar o cliente.
+	$file = file("http://sistema.blznet.com/aplicacoes/asterisk/consulta.php?CPF_CNPJ=$keys");
+	$IdPessoa = end($file);
+
+	if($IdPessoa > 0){
+		# Cliente encontrado
+		$agi->stream_file("conf-userwilljoin","#");
+
+		# Coloque opções para o cliente como por exempo 0 a 9
+		# para que ele possa selecionar o "problema" dele e possamos 
+		# abrir um protocolo de acordo com a ação dele "$key2"
+		# apague/edite como desejar
+
+		$assuntoProtocolo[0] = "Assunto A";
+		$assuntoProtocolo[1] = "Assunto B";
+		$assuntoProtocolo[2] = "Assunto C";
+		$assuntoProtocolo[3] = "Assunto D";
+		$assuntoProtocolo[4] = "Assunto E";
+		$assuntoProtocolo[5] = "Assunto F";
+		$assuntoProtocolo[6] = "Assunto G";
+		$assuntoProtocolo[7] = "Assunto H";
+		$assuntoProtocolo[8] = "Assunto I";
+		$assuntoProtocolo[9] = "Assunto J";
+
+		$textProtocolo[0] = "Texto A para o protocolo";
+		$textProtocolo[1] = "Texto B para o protocolo";
+		$textProtocolo[2] = "Texto C para o protocolo";
+		$textProtocolo[3] = "Texto D para o protocolo";
+		$textProtocolo[4] = "Texto E para o protocolo";
+		$textProtocolo[5] = "Texto F para o protocolo";
+		$textProtocolo[6] = "Texto G para o protocolo";
+		$textProtocolo[7] = "Texto H para o protocolo";
+		$textProtocolo[8] = "Texto I para o protocolo";
+		$textProtocolo[9] = "Texto J para o protocolo";
+
+		# Coloque para armazenar "EXEMPLO"
+		$opcaoMensagem = 3;
+
+		$file = file("http://sistema.blznet.com/aplicacoes/asterisk/protocolo.php?IdLoja=1&IdPessoa=$IdPessoa&Assunto=$assuntoProtocolo[$opcaoMensagem]&Msg=$textProtocolo[$opcaoMensagem]");
+		$IdProtocolo = end($file);
+
+		if($IdProtocolo >= 1){
+			# Protocolo inserido com sucesso!
+			# para mostrar o número $IdProtocolo;
+		}else{
+			# erro ao inserir o protocolo
+		}
+	}else{
+		# Cliente não encontrado
+		$agi->stream_file("incorrect-password","#"); //reproduz, Senha invalida
+		$agi->stream_file("access-password","#"); //reproduz "Por Favor digite a senha seguido da tecla quadrado #"
+
+		$result1 = $agi->get_data('beep', 3000, 20); //captura digitos DTMF
+		$keys1 = $result['result']; //Resultados da captura
+	}
+
+	//$agi->say_digits($keys);
+
+	$agi->stream_file("auth-thankyou","#"); // se tudo ocorrer corretamente reproduz #Obrigado!
+
+	$agi->hangup();
+?>

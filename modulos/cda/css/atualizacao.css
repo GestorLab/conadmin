@@ -1,0 +1,52 @@
+body{
+	background-image: url(../img/body_bg2.jpg);
+}
+
+.quadroAvisoMenu{
+	height:110px;
+	width:220px;
+	background:url(../img/bg_marca_cliente.png) no-repeat;
+}
+.quadroAviso, .quadroAvisoCab, .quadroAvisoRod{
+	width: 100%;
+}
+
+.quadroAviso table{
+	width: 100%;
+}
+
+.quadroAviso table tr th{
+	border-bottom: 1px #333 solid;
+}
+
+.quadroAvisoCab .quadroAviso_esq_sup, .quadroAvisoCab .quadroAviso_dir{
+	width: 8px;
+	height: 8px;
+}
+.quadroAvisoCab tr td, .quadroAvisoRod tr td{
+	height: 8px;
+	font-size: 1px;
+}
+
+.quadroAviso .quadroAviso_esq, .quadroAvisoCab .quadroAviso_esq, .quadroAvisoRod .quadroAviso_esq{
+	background:url(../img/bg_marca_cliente_esq.png) no-repeat;
+	width:8px;
+}
+
+.quadroAviso .quadroAviso_center, .quadroAvisoCab .quadroAviso_center, .quadroAvisoRod .quadroAviso_center{
+	background-color:#FFF;
+	text-align:center;
+	color: #333333;
+}
+
+.quadroAviso .quadroAviso_dir, .quadroAvisoCab .quadroAviso_dir, .quadroAvisoRod .quadroAviso_dir{
+	background:url(../img/bg_marca_cliente_dir.png) no-repeat;
+	width:8px;
+}
+
+.quadroAvisoRod .quadroAviso_esq{
+	background-position: bottom left;
+}
+.quadroAvisoRod .quadroAviso_dir{
+	background-position: bottom left;
+}

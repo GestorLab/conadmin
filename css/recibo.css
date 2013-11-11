@@ -1,0 +1,46 @@
+body{
+	font: normal 11px Arial, Verdana, Times;
+}
+hr{
+	border: 1px #000 dotted;
+	height: 1px;
+	margin:0;
+	padding:0;
+}
+#container, #container .via1{
+	width: 650px;
+	margin: auto;
+}
+#container #cabecalho{
+	text-align:right;
+	padding: 0 3px 1px 0;
+}
+#container table{
+	margin-top: 5px;
+}
+#container table tr td{
+	font-weight: bold;
+	border-left: 2px #2F589B solid;
+	padding: 0 10px 0 3px;
+}
+#container table tr td #tabela_demonstrativo{
+	width:100%;
+}
+#container table tr td #tabela_demonstrativo tr td{
+	border:0;
+	padding: 0 3px 0 3px;
+}
+#container table tr td h1{
+	margin: 0;
+	font-size: 18px;
+}
+#container table tr .titulo_campo{
+	border-top: 1px #000 solid;
+	font-weight: normal;
+}
+#container #ass{
+	margin: auto;
+	margin-top: 30px;
+	border-top: 1px #000 solid;
+	width: 300px;
+}

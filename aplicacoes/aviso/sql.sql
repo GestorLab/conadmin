@@ -1,0 +1,1 @@
+alter table `Aviso` change `IdLoja` `IdLoja` int (11)  DEFAULT '1' NOT NULL , change `IdAviso` `IdAviso` int (11)   NOT NULL;

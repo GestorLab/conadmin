@@ -1,0 +1,28 @@
+Cobrança Sem Registro
+	Número da Agencia: 
+	Numero da Conta:
+	Carteira 06 ativa.
+
+Cobrança Com Registro
+	Número da Agencia: 
+	Numero da Conta:
+	A impressão do título vai ser na empresa ou via banco?
+	Carteira 09/19 ativa.
+	
+
+
+insert into `LocalCobrancaParametro` values (1,1,8,'Aceite','N');
+insert into `LocalCobrancaParametro` values (1,1,8,'Agencia','1227');
+insert into `LocalCobrancaParametro` values (1,1,8,'Carteira','06');
+insert into `LocalCobrancaParametro` values (1,1,8,'Conta','1302');
+insert into `LocalCobrancaParametro` values (1,1,8,'DigitoAgencia','0');
+insert into `LocalCobrancaParametro` values (1,1,8,'DigitoConta','1');
+insert into `LocalCobrancaParametro` values (1,1,8,'Especie','R$');
+insert into `LocalCobrancaParametro` values (1,1,8,'EspecieDocumento','DM');
+insert into `LocalCobrancaParametro` values (1,1,8,'Instrucoes1','Cobrar multa de $ValorMulta após o vencimento. Cobrar juros de $ValorJurosDiarios ao dia após o vencimento.');
+insert into `LocalCobrancaParametro` values (1,1,8,'Instrucoes2','Até $DataBaseDesconto conceder desconto de $ValorDescontoVencimento ($PercentualDescontoVencimento%).');
+insert into `LocalCobrancaParametro` values (1,1,8,'Instrucoes3','');
+insert into `LocalCobrancaParametro` values (1,1,8,'Instrucoes4','');
+insert into `LocalCobrancaParametro` values (1,1,8,'Instrucoes5','');
+insert into `LocalCobrancaParametro` values (1,1,8,'LocalPagamento','Pagável em qualquer banco até o vencimento');
+insert into `LocalCobrancaParametro` values (1,1,8,'UsodoBanco','');

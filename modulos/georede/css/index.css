@@ -1,0 +1,57 @@
+html,body,#ctt, #ctt tr, #ctt tr td{
+	height: 100%;
+	margin: auto;
+}
+
+#ctt{
+	width: 100%;
+}
+
+#ctt tr #menu,#ctt tr #grid{
+	border-right: 1px #A8A89F solid;
+	padding: 2px;
+}
+#ctt tr #menu{
+	width: 26px;
+	background-color: #D4D4D0;
+}
+#ctt tr #menu ul, #ctt tr #menu ul li{
+	margin: 0;
+	padding: 0;
+}
+#ctt tr #menu ul li{
+	list-style:none;
+	text-align: center;
+	height: 24px;
+	border: 1px #D4D4D0 solid;
+}
+#ctt tr #menu ul li:hover{
+	border-color: #78AEE5;
+	background-color: #D4E5F5;
+}
+#ctt tr #menu ul li img{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#ctt tr #menu ul li .ico11 img{
+	margin-top: 4px;
+}
+#ctt tr #menu ul li .ico12 img{
+	margin-top: 6px;
+}
+#ctt tr #menu ul li .ico14 img{
+	margin-top: 4px;
+}
+#ctt tr #menu ul li .agrid{
+	height: 5px;
+	font-size: 5px;
+	margin: -4px 0 0 0;
+	text-align:right;
+}
+#ctt tr #grid{
+	background-color: #F8F8F8;
+}
+#ctt tr #mapa{
+	background-color: #F4F3F0;
+}

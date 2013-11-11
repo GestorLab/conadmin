@@ -1,0 +1,12 @@
+insert into `LocalCobrancaParametro` values (1,1,'Aceite','Aceite','N','S','');
+insert into `LocalCobrancaParametro` values (1,1,'Agencia','Agencia','0010','S','Número da Agência até 4 Digitos s/DAC');
+insert into `LocalCobrancaParametro` values (1,1,'Carteira','Carteira','102','S','Código da Carteira');
+insert into `LocalCobrancaParametro` values (1,1,'CodigoCliente','CodigoCliente','15705','S','Código do Cliente');
+insert into `LocalCobrancaParametro` values (1,1,'Especie','Espécie','R$','S','');
+insert into `LocalCobrancaParametro` values (1,1,'EspecieDocumento','Espécie Documento','DM','S','');
+insert into `LocalCobrancaParametro` values (1,1,'Instrucoes1','Instruções (1ª Linha)','Senhor atendente não receber após o vencimento.','S','Instruçoes para o Cliente');
+insert into `LocalCobrancaParametro` values (1,1,'Instrucoes2','Instruções (2ª Linha)','Ausência de credito acarretará em suspensão do serviço 03 dias após o vencimento deste.','S','Instruções - Ex. \"Não receber apos o vencimento\" ou \"Cobrar Multa de 1% ao mês\"');
+insert into `LocalCobrancaParametro` values (1,1,'Instrucoes3','Instruções (3ª Linha)','A reativação dos serviços pode levar até 48h após o pagamento do mesmo.','S','Instruçoes para o Cliente');
+insert into `LocalCobrancaParametro` values (1,1,'Instrucoes4','Instruções (4ª Linha)','*Caso essa cobrança já tenha sido paga favor desconsiderá-la!','S','Instruçoes para o Cliente');
+insert into `LocalCobrancaParametro` values (1,1,'Instrucoes5','Instruções (5ª Linha)','','S','Instruçoes para o Cliente');
+insert into `LocalCobrancaParametro` values (1,1,'UsodoBanco','Uso do Banco','','','');

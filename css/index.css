@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	font: normal 10px Verdana, Arial, Times;
+}
+input{
+	outline: none;
+}
+#l1, l2{
+	width: 100%;
+}
+#l1{
+	height: 60px;
+	background-image: url(../img/estrutura_sistema/bck_cab.gif);
+	background-repeat: repeat-x;
+}
+#l1 #l1_img1, #l1 #l1_img2{
+	margin: 10px;
+}
+#l1 #l1_img1{
+	float: left;
+}
+#l1 #l1_img2{
+	float: right;
+}
+#l2{
+	background-color: #004294;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px;
+}
+#quadro{
+	background-color: #E2E7ED;
+	width: 360px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #B6C4D3;
+	outline: 1px solid #E3E8EE;
+	outline-offset: 0px;
+}
+#quadro h1{
+	font-size:12px;
+	font-weight: bold;
+	color: #000;
+}
+#quadro #helpText{
+	display: none;
+	font-size:10px;
+}

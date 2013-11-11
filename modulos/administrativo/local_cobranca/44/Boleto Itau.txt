@@ -1,0 +1,16 @@
+Solicitar as informações abaixo para o cliente:
+
+Número da Agencia: 
+Numero da Conta:
+Carteira 175 ativa.
+
+
+insert into `LocalCobrancaParametro` values (1,1,5,'Agencia','0136');
+insert into `LocalCobrancaParametro` values (1,1,5,'Carteira','175');
+insert into `LocalCobrancaParametro` values (1,1,5,'Conta','69252');
+insert into `LocalCobrancaParametro` values (1,1,5,'ContaDigito','2');
+insert into `LocalCobrancaParametro` values (1,1,5,'Especie','DS');
+insert into `LocalCobrancaParametro` values (1,1,5,'Instrucoes1','Cobrar multa de $ValorMulta após o vencimento. Cobrar juros de $ValorJurosDiarios ao dia após o vencimento.');
+insert into `LocalCobrancaParametro` values (1,1,5,'Instrucoes2','Até $DataBaseDesconto conceder desconto de $ValorDescontoVencimento ($PercentualDescontoVencimento%).');
+insert into `LocalCobrancaParametro` values (1,1,5,'Instrucoes3','');
+insert into `LocalCobrancaParametro` values (1,1,5,'Instrucoes4','');

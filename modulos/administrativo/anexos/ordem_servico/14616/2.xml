@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<UploadSICI ano="2012" mes="12">
+		<Outorga fistel="00000000000">
+			<Indicador Sigla="IEM4">
+				<Conteudo uf="TO" item="a" valor="0" />
+			</Indicador>
+			<Indicador Sigla="IEM5">
+				<Conteudo uf="TO" item="a" valor="0" />
+			</Indicador>
+			<Indicador Sigla="IEM9">0</Indicador>
+			<Indicador Sigla="IEM10">0</Indicador>
+			<Indicador Sigla="IPL3">
+				<Municipio codmunicipio="1709500">
+					<Pessoa item="F">
+						<Conteudo item="a" valor="1" />
+					</Pessoa>
+					<Pessoa item="J">
+						<Conteudo item="a" valor="0" />
+					</Pessoa>
+				</Municipio>
+			</Indicador>
+			<Indicador Sigla="QAIPL4SM">
+				<Municipio codmunicipio="1709500">
+					<Tecnologia item="A">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="B">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="C">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="1" />
+						<Conteudo nome="15" valor="1" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="D">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="E">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="F">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="G">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="H">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="I">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="J">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="K">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="L">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="M">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="N">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+					<Tecnologia item="O">
+						<Conteudo nome="QAIPL5SM" valor="0,00" />
+						<Conteudo nome="total" valor="0" />
+						<Conteudo nome="15" valor="0" />
+						<Conteudo nome="16" valor="0" />
+						<Conteudo nome="17" valor="0" />
+						<Conteudo nome="18" valor="0" />
+						<Conteudo nome="19" valor="0" />
+					</Tecnologia>
+				</Municipio>
+			</Indicador>
+			<Indicador Sigla="IPL6IM">
+				<Municipio codmunicipio="1709500" valor="0,00" />
+			</Indicador>
+			<Indicador Sigla="IAU1">
+				<Conteudo valor="xxxx-xxxxxx" />
+			</Indicador>
+			<Indicador Sigla="IPL1">
+				<Conteudo item="a" valor="0,00" />
+				<Conteudo item="b" valor="0,00" />
+				<Conteudo item="c" valor="0,00" />
+				<Conteudo item="d" valor="0,00" />
+			</Indicador>
+			<Indicador Sigla="IPL2">
+				<Conteudo item="a" value="0,00" />
+				<Conteudo item="b" value="0,00" />
+				<Conteudo item="c" value="0,00" />
+				<Conteudo item="d" value="0,00" />
+			</Indicador>
+			<Indicador Sigla="IEM1">
+				<Conteudo item="a" valor="0,00" />
+				<Conteudo item="b" valor="0,00" />
+				<Conteudo item="c" valor="0,00" />
+				<Conteudo item="d" valor="0,00" />
+				<Conteudo item="e" valor="0,00" />
+				<Conteudo item="f" valor="0,00" />
+				<Conteudo item="g" valor="0,00" />
+			</Indicador>
+			<Indicador Sigla="IEM2">
+				<Conteudo item="a" valor="0,00" />
+				<Conteudo item="b" valor="0,00" />
+				<Conteudo item="c" valor="0,00" />
+			</Indicador>
+			<Indicador Sigla="IEM3">
+				<Conteudo item="a" valor="0,00" />
+			</Indicador>
+			<Indicador Sigla="IEM6">
+				<Conteudo item="a" valor="40,00" />
+			</Indicador>
+			<Indicador Sigla="IEM7">
+				<Conteudo item="a" valor="40,00" />
+			</Indicador>
+			<Indicador Sigla="IEM8">
+				<Conteudo item="a" valor="0,00" />
+				<Conteudo item="b" valor="0,00" />
+				<Conteudo item="c" valor="0,00" />
+				<Conteudo item="d" valor="0,00" />
+				<Conteudo item="e" valor="0,00" />
+			</Indicador>
+		</Outorga>
+	</UploadSICI>
+</root>

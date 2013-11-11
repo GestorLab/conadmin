@@ -1,0 +1,10 @@
+
+Warning: include(/public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/radius_wifi/radius_bloqueio.php): failed to open stream: No such file or directory in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/bloqueio_automatico.php on line 226
+
+Warning: include(): Failed opening '/public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/radius_wifi/radius_bloqueio.php' for inclusion (include_path='.:/usr/local/share/pear') in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/bloqueio_automatico.php on line 226
+
+Warning: include(/public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/radius_wifi/radius_bloqueio.php): failed to open stream: No such file or directory in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/bloqueio_automatico.php on line 226
+
+Warning: include(): Failed opening '/public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/radius_wifi/radius_bloqueio.php' for inclusion (include_path='.:/usr/local/share/pear') in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/bloqueio_automatico.php on line 226
+
+Warning: mysql_fetch_array() expects parameter 1 to be resource, boolean given in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/classes/envia_mensagem/envia_mensagem.php on line 4717

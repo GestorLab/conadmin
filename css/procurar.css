@@ -1,0 +1,66 @@
+.realupload {
+      position: relative;
+      float: right;
+      top: 0px;
+      margin-top: -25px;
+      right: 0px;
+      height: 22px;
+      opacity:0;
+      -moz-opacity:0;      
+      filter:alpha(opacity:0);      
+}
+ 
+.fakeupload {
+      border: 1px #A4A4A4 solid;
+      border-left: 0;
+      margin-left: -4px;         
+      cursor: default;
+      background-color: #FFFFFF;
+}
+#bt_procurar{
+	height: 23px;
+	width: 90px;
+	padding: 0;
+	margin-top: -22px;
+	margin-left: 322px;
+	border: 0;
+	background: url("../img/estrutura_sistema/procurar.gif"); 
+	background-repeat: no-repeat;
+}
+/*##Cad Produto##*/
+.realuploadFoto {
+      position: relative;
+      float: right;
+      top: 0px;
+      margin-top: -22px;
+      right: 0px;
+      height: 22px;
+      opacity:0;
+      -moz-opacity:0;      
+      filter:alpha(opacity:0);
+}
+.foto {
+      border: 1px #A4A4A4 solid;
+      /*border-right: 0;*/
+      /*margin-left: -4px;         */
+      cursor: default;
+      background-color: #FFFFFF;
+}.descfoto {
+      border: 1px #A4A4A4 solid;
+      /*border-right: 0;*/
+	  border-left:0;
+      margin-left: -4px;
+      cursor: default;
+      background-color: #FFFFFF;
+}
+#bt_foto{
+	height: 23px;
+	width: 90px;
+	padding: 0;
+	margin-top: -22px;
+	margin-left: 286px;
+	border: 0;
+	background: url("../img/estrutura_sistema/procurar.gif"); 
+	background-repeat: no-repeat;
+}
+/*##Fim Cad Produto##*/

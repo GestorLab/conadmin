@@ -1,0 +1,81 @@
+body{
+	background-color: #004492;
+	color: #FFF;
+	font: normal 10px Verdana, Arial, Times;
+	margin: 0;
+}
+body,input{
+	outline: none;
+	font: normal 10px Verdana, Arial, Times;
+}
+form{
+	margin: 0;
+}
+h1{
+	font-size: 10px;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+ul{
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	color: #000;
+	font-weight: bold;
+	display: none;
+}
+ul li{
+	background-color: #FFF;
+	padding: 3px 3px 3px 21px;
+	cursor: pointer;
+	border: 1px #004492 solid;
+}
+ul li a{
+	color: #000;
+	text-decoration: none;
+}
+ul li:hover{
+	background-color: #004492;
+	color: #FFF;
+	border: 1px #FFF solid;
+}
+ul li:hover a{
+	color: #FFF;
+}
+ul .n2, ul .n2_end{
+	font-weight: normal;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 9px 0;
+}
+ul .n2{
+	background-image: url(../img/estrutura_sistema/mn_trace.gif);
+}
+ul .n2_end{
+	background-image: url(../img/estrutura_sistema/mn_trace_end.gif);
+}
+.mn, .mn_normal{
+	display: block;
+}
+.mn li{
+	background-image: url(../img/estrutura_sistema/mn_mais.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+}
+#codigo_barra{
+	margin: 1px 6px 0 6px;
+	background-color: #FFF;
+	color: #000;
+	padding-top: 9px;
+	text-align: center;
+	background-image: url(../img/estrutura_sistema/codigo_barra.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 1px;
+}
+#codigo_barra p{ margin: 0; }
+#codigo_barra input{
+	width: 118px;
+}
+input, select, .botao, textarea{
+	border: 1px #000 solid;
+}

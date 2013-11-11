@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<reg>
+	<msg1><![CDATA[Erro! Verifique os campos obrigatórios.]]></msg1>
+	<pri1>atencao</pri1>
+	<msg2><![CDATA[Você não possui permissão para executar esta ação!]]></msg2>
+	<pri2>atencao</pri2>
+	<msg3><![CDATA[Registro cadastrado com sucesso!]]></msg3>
+	<msg4><![CDATA[Registro alterado com sucesso!]]></msg4>
+	<msg5><![CDATA[Erro ao alterar registro!]]></msg5>
+	<pri5>atencao</pri5>
+	<msg6><![CDATA[Erro ao excluir registro!]]></msg6>
+	<pri6>atencao</pri6>
+	<msg7><![CDATA[Registro exclu&iacute;do com sucesso!]]></msg7>
+	<msg8><![CDATA[Erro ao inserir registro!]]></msg8>
+	<pri8>atencao</pri8>
+	<msg9><![CDATA[Erro ao copiar arquivo!]]></msg9>
+	<pri9>atencao</pri9>
+	<msg10><![CDATA[Arquivo não permitido!]]></msg10>
+	<pri10>atencao</pri10>
+	<msg11><![CDATA[A senha e a confirmação não coincidem. Digite a mesma senha nos dois campos.]]></msg11>
+	<pri11>atencao</pri11>
+	<msg12><![CDATA[E-mail inválido.]]></msg12>
+	<pri12>atencao</pri12>
+	<msg13><![CDATA[Senha incorreta.]]></msg13>
+	<pri13>atencao</pri13>
+	<msg15><![CDATA[Uma nova senha foi enviada para seu e-mail.]]></msg15>
+	<msg16><![CDATA[Erro ao enviar senha. Usuário ou E-mail inválido.]]></msg16>
+	<pri16>atencao</pri16>
+	<msg18><![CDATA[Erro! Verifique os campos com erro.]]></msg18>
+	<pri18>atencao</pri18>
+	<msg26><![CDATA[Erro! CPF/CNPJ já cadastrado.]]></msg26>
+	<pri26>atencao</pri26>
+	<msg27><![CDATA[Erro! Data Inválida.]]></msg27>
+	<pri27>atencao</pri27>
+	<msg28><![CDATA[Erro! Hora inválida.]]></msg28>
+	<pri28>atencao</pri28>
+	<msg30><![CDATA[Erro! Data duplicada.]]></msg30>
+	<pri30>atencao</pri30>
+	<msg33><![CDATA[Erro ao excluir registro! Verifique utilização do mesmo.]]></msg33>
+	<pri33>atencao</pri33>
+	<msg35><![CDATA[Erro ao atribuir permissão!]]></msg35>
+	<pri35>atencao</pri35>
+	<msg36><![CDATA[Permissão atribuida com sucesso!]]></msg36>
+	<msg37><![CDATA[Permissão removida com sucesso!]]></msg37>
+	<msg38><![CDATA[Erro ao remover permissão!]]></msg38>
+	<pri38>atencao</pri38>
+	<msg39><![CDATA[Erro! A data inicial deve ser menor que a data final.]]></msg39>
+	<pri39>atencao</pri39>
+	<msg40><![CDATA[Deseja inserir este registro?]]></msg40>
+	<msg41><![CDATA[Deseja alterar este registro?]]></msg41>
+	<msg42><![CDATA[Erro! Preencha pelo menos um número de telefone para contato]]></msg42>
+	<pri42>atencao</pri42>
+	<msg43><![CDATA[Erro! Já existe vigência cadastrada para essa data.]]></msg43>
+	<pri43>atencao</pri43>
+	<msg44><![CDATA[Erro! Há outra vigência em funcionamento. Estipule a Data Término da mesma.]]></msg44>
+	<pri44>atencao</pri44>
+	<msg45><![CDATA[Erro! Mês  e/ou  Ano invádido.]]></msg45>
+	<pri45>atencao</pri45>
+	<msg46><![CDATA[Erro ao alterar processo financeiro. Motivo: Este status não permite alteração.]]></msg46>
+	<pri46>atencao</pri46>
+	<msg47><![CDATA[Processo confirmado com sucesso!]]></msg47>
+	<msg48><![CDATA[Processo cancelado com sucesso!]]></msg48>
+	<msg49><![CDATA[Erro ao excluir processo financeiro. Motivo: Este status não permite exclusão.]]></msg49>
+	<pri49>atencao</pri49>
+	<msg50><![CDATA[Erro ao processar financeiro. Favor entrar em contato com o suporte. Motivo desconhecido.]]></msg50>
+	<pri50>atencao</pri50>
+	<msg51><![CDATA[Processo executado com sucesso!]]></msg51>
+	<msg53><![CDATA[Erro ao processar financeiro. Motivo: Este status não permite processamento.]]></msg53>
+	<pri53>atencao</pri53>
+	<msg54><![CDATA[Lançamento Financeiro excluido com sucesso!]]></msg54>
+	<msg55><![CDATA[Erro ao exluir Lançamento Financeiro.]]></msg55>
+	<pri55>atencao</pri55>
+	<msg56><![CDATA[Erro ao inserir registro. Não existe nivel anterior.]]></msg56>
+	<pri56>atencao</pri56>
+	<msg57><![CDATA[Erro! Não há contas a pagar cadatradas.]]></msg57>
+	<pri57>atencao</pri57>
+	<msg58><![CDATA[Arquivo não encontrado!]]></msg58>
+	<pri58>atencao</pri58>
+	<msg59><![CDATA[Deseja receber este registro?]]></msg59>
+	<msg60><![CDATA[Erro ao inserir registro. Arquivo já cadastrado.]]></msg60>
+	<pri60>atencao</pri60>
+	<msg61><![CDATA[Erro ao exluir registro. O arquivo já foi processado.]]></msg61>
+	<pri61>atencao</pri61>
+	<msg62><![CDATA[Processo executado com sucesso!]]></msg62>
+	<pri62> </pri62>
+	<msg63><![CDATA[Erro ao processar arquivo de retorno. Verifique a consistência do arquivo.]]></msg63>
+	<pri63>atencao</pri63>
+	<msg66><![CDATA[Erro! Selecione pelo menos uma opção de filtro.]]></msg66>
+	<pri66>atencao</pri66>
+	<msg67><![CDATA[Registro cancelado com sucesso.]]></msg67>
+	<msg68><![CDATA[Erro ao cancelar registro.]]></msg68>
+	<pri68>atencao</pri68>
+	<msg69><![CDATA[Existem outros processos deste local de cobrança em análise.]]></msg69>
+	<pri69>atencao</pri69>
+	<msg70><![CDATA[Erro! A data da parcela deve ser maior ou igual a primeira data de vencimento.]]></msg70>
+	<pri70>atencao</pri70>
+	<msg71><![CDATA[Erro. O somatório do valor das parcelas deve ser igual ao valor da conta eventual.]]></msg71>
+	<pri71>atencao</pri71>
+	<msg72><![CDATA[Atencao! E necessario simular as parcelas.]]></msg72>
+	<pri72>atencao</pri72>
+	<msg73><![CDATA[Erro ao confirmar conta eventual. Favor entrar em contato com o suporte. Motivo desconhecido.]]></msg73>
+	<pri73>atencao</pri73>
+	<msg74><![CDATA[Conta eventual confirmada com sucesso.]]></msg74>
+	<msg75><![CDATA[Conta eventual cancelada com sucesso!]]></msg75>
+	<msg76><![CDATA[Erro ao cancelar conta eventual.]]></msg76>
+	<pri76>atencao</pri76>
+	<msg77><![CDATA[Não foi possível cancelar o processo financeiro! Motivo: Existem outros novos processos financeiros deste local de cobrança.]]></msg77>
+	<pri77>atencao</pri77>
+	<msg78><![CDATA[Não foi possível processar o processo financeiro. Motivo: Existem processos financeiros não confirmados para este local de cobrança.]]></msg78>
+	<pri78>atencao</pri78>
+	<msg79><![CDATA[Não foi possível confirmar o processo financeiro. Motivo: Existem processos financeiros não confirmados para este local de cobrança.]]></msg79>
+	<pri79>atencao</pri79>
+	<msg80><![CDATA[Erro! O valor do conta eventual deve ser maior que o valor mínimo do local de cobrança.]]></msg80>
+	<pri80>atencao</pri80>
+	<msg81><![CDATA[Atenção! Sua senha não foi alterada. Clique em "Alterar Senha" no menu de acesso rápido para alterá-la.]]></msg81>
+	<pri81>atencao</pri81>
+	<msg82><![CDATA[Registro ativado com sucesso.]]></msg82>
+	<msg83><![CDATA[Erro ao ativar registro.]]></msg83>
+	<pri83>atencao</pri83>
+	<msg84><![CDATA[Atencao! Preencha o campo valor antes de adicionar a periodicidade.]]></msg84>
+	<pri84>atencao</pri84>
+	<msg85><![CDATA[Atenção! Não é possível alterar as permissões deste grupo permissão. Ver grupo permissão.]]></msg85>
+	<pri85>atencao</pri85>
+	<msg86><![CDATA[Erro ao processar registro.]]></msg86>
+	<pri86>atencao</pri86>
+	<msg87><![CDATA[Lote de Repasse confirmado com sucesso!]]></msg87>
+	<msg88><![CDATA[Erro ao confirmar lote de repasse.]]></msg88>
+	<pri88>atencao</pri88>
+	<msg89><![CDATA[Não foi possível processar o lote de repasse Motivo: Existem lançamentos financeiros não confirmados para este terceiro.]]></msg89>
+	<pri89>atencao</pri89>
+	<msg90><![CDATA[Erro ao enviar e-mail. Entre em contato com o suporte.]]></msg90>
+	<pri90>atencao</pri90>
+	<msg91><![CDATA[Arquivo excluido com sucesso.]]></msg91>
+	<msg92><![CDATA[Atencao! O Valor é menor que o valor mínimo permitido.]]></msg92>
+	<pri92>atencao</pri92>
+	<msg93><![CDATA[ATENCAO! É obrigatório ter no mínimo 1 (um) produto cadastrado.]]></msg93>
+	<pri93>atencao</pri93>
+	<msg94><![CDATA[Erro no valor total da NF.]]></msg94>
+	<pri94>atencao</pri94>
+	<msg95><![CDATA[Erro! O valor do ICMS não confere com o somatório dos percentuais das alíquotas.]]></msg95>
+	<pri95>atencao</pri95>
+	<msg96><![CDATA[Atencao! A quantidade de número de séries não confere.]]></msg96>
+	<pri96>atencao</pri96>
+	<msg97><![CDATA[Atenção! Existe número de séries repetido.]]></msg97>
+	<pri97>atencao</pri97>
+	<msg98><![CDATA[Atenção! Número de série já cadastrado.]]></msg98>
+	<pri98>atencao</pri98>
+	<msg99><![CDATA[Selecione, no mínimo, um lançamento a ser cancelado.]]></msg99>
+	<pri99>atencao</pri99>
+	<msg100><![CDATA[Atenção! Selecione um Status diferente do anterior.]]></msg100>
+	<pri100>atencao</pri100>
+	<msg101><![CDATA[Lançamento Financeiro cancelado com sucesso!]]></msg101>
+	<msg102><![CDATA[Erro ao cancelar lançamento financeiro.]]></msg102>
+	<pri102>atencao</pri102>
+	<msg103><![CDATA[Registro alterado com sucesso!]]></msg103>
+	<msg104><![CDATA[Atencao! Preencha inicialmente campo Pessoa.]]></msg104>
+	<pri104>atencao</pri104>
+	<msg105><![CDATA[Atencao! O Valor e Valor Final não conferem.]]></msg105>
+	<pri105>atencao</pri105>
+	<msg106><![CDATA[O valor dos contratos ativos foram alterados com sucesso.]]></msg106>
+	<msg107><![CDATA[Erro ao alterar valor da vigência do contrato.]]></msg107>
+	<pri107>atencao</pri107>
+	<msg108><![CDATA[Não foi possível alterar a data do vencimento. Aguarde o retorno do banco.]]></msg108>
+	<pri108>atencao</pri108>
+	<msg109><![CDATA[E-mail enviado com sucesso. Em breve entraremos em contato com maiores informações.]]></msg109>
+	<msg110><![CDATA[Erro! CPF/CNPJ não cadastrado.]]></msg110>
+	<pri110>atencao</pri110>
+	<msg111><![CDATA[Erro! CPF/CNPJ inválido!]]></msg111>
+	<pri111>atencao</pri111>
+	<msg112><![CDATA[Erro! CPF/CNPJ e/ou Senha inválidos.]]></msg112>
+	<pri112>atencao</pri112>
+	<msg113><![CDATA[Erro! Selecione pelo menos um (1) contrato.]]></msg113>
+	<pri113>atencao</pri113>
+	<msg114><![CDATA[Senha alterada com sucesso!]]></msg114>
+	<msg115><![CDATA[Erro ao alterar senha!]]></msg115>
+	<pri115>atencao</pri115>
+	<msg117><![CDATA[A conexão será derrubada em alguns minutos.]]></msg117>
+	<msg118><![CDATA[Erro ao derrubar conexão.]]></msg118>
+	<pri118>atencao</pri118>
+	<msg119><![CDATA[Solicitação de alteração recusada com sucesso.]]></msg119>
+	<msg120><![CDATA[Erro ao recusar solicitação de alteração.]]></msg120>
+	<pri120>atencao</pri120>
+	<msg121><![CDATA[Lançamento Financeiro removido com sucesso!]]></msg121>
+	<msg122><![CDATA[Erro ao remover Lançamento Financeiro.]]></msg122>
+	<pri122>atencao</pri122>
+	<msg123><![CDATA[Atencao! Selecione pelo menos uma etiqueta na página.]]></msg123>
+	<pri123>atencao</pri123>
+	<msg124><![CDATA[Atencao! O novo vencimento deve ser maior que o antigo.]]></msg124>
+	<pri124>atencao</pri124>
+	<msg125><![CDATA[Cor inválida. Motivo: A quantidade de caracteres deve ser igual a 7 (sete).]]></msg125>
+	<pri125>atencao</pri125>
+	<msg126><![CDATA[Contas a Receber ativado com sucesso.]]></msg126>
+	<msg127><![CDATA[Erro ao ativar contas a receber.]]></msg127>
+	<pri127>atencao</pri127>
+	<msg128><![CDATA[Não há registros para impressão.]]></msg128>
+	<pri128>atencao</pri128>
+	<msg129><![CDATA[Erro ao excluir endereço! Verifique a utilização do mesmo.]]></msg129>
+	<pri129>atencao</pri129>
+	<msg130><![CDATA[Atencao! Quantidade de caracteres minimo é Valor.]]></msg130>
+	<pri130>atencao</pri130>
+	<msg131><![CDATA[Processamento do arquivo de retorno cancelado com sucesso.]]></msg131>
+	<msg132><![CDATA[Erro ao cancelar processamento do arquivo de retorno.]]></msg132>
+	<pri132>atencao</pri132>
+	<msg133><![CDATA[Erro ao gerar nota fiscal. Verifique configurações do serviço para a geração.]]></msg133>
+	<pri133>atencao</pri133>
+	<msg134><![CDATA[Processo executado com sucesso!]]></msg134>
+	<msg135><![CDATA[Erro ao processar NF 2ª via Eletronica Remessa. Favor entrar em contato com o suporte. Motivo desconhecido.]]></msg135>
+	<msg136><![CDATA[Processo confirmado com sucesso!]]></msg136>
+	<msg137><![CDATA[Existem Notas Fiscais com datas superiores a que foi digitada.]]></msg137>
+	<pri137>atencao</pri137>
+	<msg138><![CDATA[Erro, a título (s) com vencimento (s) menor ou igual a hoje.]]></msg138>
+	<pri138>atencao</pri138>
+	<msg139><![CDATA[Erro! A data referência inicial deve ser menor ou igual à data referência final.]]></msg139>
+	<pri139>atencao</pri139>
+	<msg140><![CDATA[Erro! É obrigatório ter no mínimo 2 (dois) contas a receber agrupado.]]></msg140>
+	<pri140>atencao</pri140>
+	<msg141><![CDATA[Não foi possível processar o arquivo de remessa. Existem arquivos de remessa não confirmados para este local de cobrança.]]></msg141>
+	<pri141>atencao</pri141>
+	<msg142><![CDATA[Parâmetro já utilizado. Digite outro novamente.]]></msg142>
+	<pri142>atencao</pri142>
+	<msg143><![CDATA[A Data Nota Fiscal deve ser maior ou igual a data do Processamento/Confirmação!]]></msg143>
+	<pri143>atencao</pri143>
+	<msg144><![CDATA[Erro! Valor Repasse Terceiro deve ser menor que o valor da vigência]]></msg144>
+	<pri144>atencao</pri144>
+	<msg145><![CDATA[Erro! O valor do lote repasse terceiro deve ser menor que o valor do lançamento financeiro.]]></msg145>
+	<pri145>atencao</pri145>
+	<msg146><![CDATA[Erro! Inscrição Estadual Inválida.]]></msg146>
+	<pri146>atencao</pri146>
+	<msg147><![CDATA[Registro processado com sucesso!]]></msg147>
+	<msg148><![CDATA[Erro, verifique os dados da conta de e-mail!]]></msg148>
+	<pri148>atencao</pri148>
+	<msg149><![CDATA[Teste da conta de e-mail realizado com sucesso!]]></msg149>
+	<msg150><![CDATA[Não foi possível processar o lote repasse. Motivo: Existem lote repasses não confirmados para este terceiro.]]></msg150>
+	<msg151><![CDATA[Não foi possível cancelar o processo financeiro! Motivo: Existem notas fiscais subseqüentes já geradas.]]></msg151>
+	<pri151>atencao</pri151>
+	<msg152><![CDATA[Não foi possível cancelar o processo financeiro! Motivo: A remessa das notas fiscais estão em análise/já enviadas.]]></msg152>
+	<pri152>atencao</pri152>
+	<msg153><![CDATA[Não foi possível cancelar o processo financeiro! Motivo: Há contas a receber quitados.]]></msg153>
+	<pri153>atencao</pri153>
+	<msg154><![CDATA[Não foi possível cancelar o processo financeiro! Motivo: Há lançamentos que já foram repassados a terceiros.]]></msg154>
+	<pri154>atencao</pri154>
+	<msg155><![CDATA[Erro, não foi possível conectar ao servidor, verifique o endereço do servidor e a porta!]]></msg155>
+	<pri155>atencao</pri155>
+	<msg156><![CDATA[Erro, não foi possível conectar ao servidor, verifique o usuário e a senha!]]></msg156>
+	<pri156>atencao</pri156>
+	<msg157><![CDATA[Erro, usuário não possui permissão para fazer upload de arquivos!]]></msg157>
+	<pri157>atencao</pri157>
+	<msg158><![CDATA[Erro, usuário não possui permissão para apagar arquivos!]]></msg158>
+	<pri158>atencao</pri158>
+	<msg159><![CDATA[Teste da conta de backup realizado com sucesso!]]></msg159>
+	<msg160><![CDATA[Erro ao processar financeiro. Há contratos sem CFOP preenchido. Clique em visualizar para identifica-los.]]></msg160>
+	<pri160>atencao</pri160>
+	<msg161><![CDATA[Conta(s) Receber cancelada(s) com sucesso!]]></msg161>
+	<msg162><![CDATA[Erro! Não foi possivel cancelar Conta(s) Receber!]]></msg162>
+	<msg163><![CDATA[Erro ao excluir registro! Há mensagens já enviadas.]]></msg163>
+	<pri163>atencao</pri163>
+	<msg164><![CDATA[Erro. O somatório do valor das parcelas deve ser igual ao valor da ordem de serviço.]]></msg164>
+	<pri164>atencao</pri164>
+	<msg165><![CDATA[Erro! O valor da ordem de serviço deve ser maior que o valor mínimo do local de cobrança.]]></msg165>
+	<pri165>atencao</pri165>
+	<msg166><![CDATA[Erro. O somatório do valor das parcelas deve ser igual ao valor do agrupado do contas a receber.]]></msg166>
+	<pri166>atencao</pri166>
+	<msg167><![CDATA[Erro! O período de apuração deve ser menor que o mês atual.]]></msg167>
+	<pri167>atencao</pri167>
+	<msg168><![CDATA[Movimentação realizada com sucesso!]]></msg168>
+	<msg169><![CDATA[Erro ao realizar movimentação!]]></msg169>
+	<pri169>atencao</pri169>
+	<msg170><![CDATA[Arquivo com formato inválido, por favor selecione arquivo do formato GIF.]]></msg170>
+	<pri170>atencao</pri170>
+	<msg171><![CDATA[Não foi possível gerar nota fiscal pois este contas a receber possui<BR>um lançamento de ordem de serviço.]]></msg171>
+	<msg172><![CDATA[Não foi possível gerar nota fiscal pois este contas a receber possui<BR>um lançamento de conta eventual.]]></msg172>
+	<msg173><![CDATA[Erro, verifique a confirmação de entrega dos arquivos de remessa deste local de cobrança.]]></msg173>
+	<pri173>atencao</pri173>
+	<msg174><![CDATA[Confirmado com sucesso!]]></msg174>
+	<msg175><![CDATA[Erro ao confirmar!]]></msg175>
+	<pri175>atencao</pri175>
+	<msg176><![CDATA[Entrega confirmada com sucesso!]]></msg176>
+	<msg177><![CDATA[Erro ao confirmar a entrega!]]></msg177>
+	<pri177>atencao</pri177>
+	<msg178><![CDATA[Erro! Arquivo de Remessa Tipo do local de cobrança não esta preenchido. Por favor, entre em contato com o suporte.]]></msg178>
+	<pri178>atencao</pri178>
+	<msg179><![CDATA[Erro! As dimensões da logomarca excedem o valor máximo da altura ou da largura.]]></msg179>
+	<pri179>atencao</pri179>
+	<msg180><![CDATA[Processo não executado! Este local de cobrança não possui remessas a serem geradas. ]]></msg180>
+	<pri180>atencao</pri180>
+	<msg181><![CDATA[Erro! Não há contas a receber com este arquivo de remessa para esse local de cobrança.]]></msg181>
+	<pri181>atencao</pri181>
+	<msg182><![CDATA[Erro! Não existem notas fiscais para serem transmitida para este prédio de apuração.]]></msg182>
+	<pri182>atencao</pri182>
+	<msg183><![CDATA[Atencao! Quantidade de caracteres máximo é Valor.]]></msg183>
+	<pri183>atencao</pri183>
+	<msg184><![CDATA[Erro! O valor da forma de pagamento não confere com o valor final total.]]></msg184>
+	<pri184>atencao</pri184>
+	<msg185><![CDATA[Erro! verifique os dados da conta de SMS!]]></msg185>
+	<pri185>atencao</pri185>
+	<msg186><![CDATA[Teste da conta de SMS realizado com sucesso!]]></msg186>
+	<msg187><![CDATA[Erro! A Data Inicio tem que ser maior que a Data Inicio anterior!]]></msg187>
+	<pri187>atencao</pri187>
+	<msg188><![CDATA[Erro! Estes atributos já estão cadastrados nesta tabela, favor verifique os mesmos!]]></msg188>
+	<pri188>atencao</pri188>
+	<msg189><![CDATA[Não há LF e/ou CR gerados para este Processo Financeiro!]]></msg189>
+	<pri189>atencao</pri189>
+	<msg190><![CDATA[Utilize outra conta de e-mail.]]></msg190>
+	<pri190>atencao</pri190>
+	<msg191><![CDATA[Tipo de e-mail $emailDesativado desativado. Por favor, entre em contato com o suporte para mais instruções.]]></msg191>
+	<pri191>atencao</pri191>
+	<msg192><![CDATA[Erro! A extensão do arquivo a ser anexado precisa estar entre as extensões permitidas
+para este formulario!]]></msg192>
+	<pri192>atencao</pri192>
+	<msg193><![CDATA[A sua senha deve ter no mínimo 8 digitos.]]></msg193>
+	<pri193>atencao</pri193>
+	<msg194><![CDATA[Sua senha não pode ser fraca.]]></msg194>
+	<pri194>atencao</pri194>
+	<msg195><![CDATA[Caracteres não coincidem.]]></msg195>
+	<pri195>atencao</pri195>
+	<msg196><![CDATA[Senha atual incorreta.]]></msg196>
+	<pri196>atencao</pri196>
+	<msg197><![CDATA[Erro ao reabrir o caixa! Usuário já possui caixa em aberto.]]></msg197>
+	<pri197>atencao</pri197>
+</reg>

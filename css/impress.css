@@ -1,0 +1,15 @@
+@media print
+{
+	.ocultar 
+	{
+		display: block;
+	}
+	#filtroBuscar, #menu_ar, .bt_lista, .impress
+	{
+		display: none;
+	}
+}
+#tableListar
+{
+	width: 100%;
+}

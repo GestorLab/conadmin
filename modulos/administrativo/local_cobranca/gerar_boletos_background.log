@@ -1,0 +1,5 @@
+
+Warning: imagepng(imagens/cep_cod_barra.png): failed to open stream: No such file or directory in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/local_cobranca/49/funcao_cabecalho_pdf.php on line 250
+
+Warning: getimagesize(imagens/boleto_navex.JPG): failed to open stream: No such file or directory in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/classes/fpdf/class.fpdf.php on line 1202
+<b>FPDF error:</b> Missing or incorrect image file: imagens/boleto_navex.JPG

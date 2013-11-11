@@ -1,0 +1,1 @@
+/usr/local/bin/php /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www//modulos/administrativo/local_cobranca/15/pdf_all.php 1 537 s 6 2 > /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www//modulos/administrativo/local_cobranca/gerar_boletos_background.log &

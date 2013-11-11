@@ -1,0 +1,3 @@
+
+Warning: mysql_fetch_array() expects parameter 1 to be resource, boolean given in /public/www/dominios/desenvolvimento.cntsistemas.com.br/www/conadmin/www/modulos/administrativo/rotinas/enviar_mensagem_processo_financeiro.php on line 161
+Erro - Função declarada incorretamente use 2 parâmetros não vazios: <b>delimitaAteCaracter(Texto,String)</b><br>

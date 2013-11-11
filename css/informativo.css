@@ -1,0 +1,23 @@
+#conteudo .quadro_info{
+	border: 1px #000 solid; 
+	background-color: #F5F5DC; 
+	padding: 20px; 
+	margin: auto; 
+	margin-top: 20px; 
+	width: 530px;
+}
+
+#conteudo .quadro_info .titulo{
+	font-weight: bold; 
+	margin: 0 0 15px 0;
+}
+
+#conteudo .quadro_info .texto{
+	margin: 0 0 10px 0; 
+	text-align: justify;
+}
+
+#conteudo .quadro_info a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}

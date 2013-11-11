@@ -1,0 +1,378 @@
+body {
+	margin:10px 0 0 0;
+	padding:0px;
+	font-family: "Trebuchet MS", Arial;
+	font-size:12px;
+	color: #333;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #003366;
+}
+
+body a:link { color: #333 ; text-decoration:none }
+body a:active {color: #333 ; text-decoration:underline }
+body a:visited { color: #333 ; text-decoration:none }
+body a:hover { color: #333 ; text-decoration:underline }
+
+.txtA { 
+	color: #fff; 
+	font-size:12px; 
+	text-align:left; 
+	margin-bottom: 20px;
+}
+.txtA a:link { color: red; text-decoration:none }
+.txtA a:active {color: red; text-decoration:underline }
+.txtA a:visited { color: red; text-decoration:none }
+.txtA a:hover, .transparente a:hover { color: red; text-decoration:underline }
+
+#geralL { 
+	margin:0px auto 0px auto; 
+	width:612px;
+}
+
+#rpL { 
+	width:612px;
+}
+
+#rpL .borda {
+	width: 20px; 
+	height: 20px;
+}
+
+#rpL .borda-bottom {
+	background: url(../img/bg_transparente2.png);
+	font-size: 1px;
+}
+
+#rpL .transparente a, #rodape .transparente a{
+	color: #FFF;
+}
+
+#geral, #rodape { 
+	margin:0px auto 0px auto; 
+	width:920px;
+}
+
+#main {
+	padding:20px 0
+}
+
+#top, #rp { 
+	width:920px;
+}
+
+.transparente { 
+	background:url(../../../gera_file.php?Url=layout/1/img/bg_transparente2.png);
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}
+
+.lrp { 
+	background:url(../../../gera_file.php?Url=layout/1/img/bg_transparente.png);
+}
+
+/*/////////////// Basicos ///////////////*/
+
+h1 { 
+	font-size:16px; 
+	color: #000; 
+	font-weight: lighter;
+	padding:0;
+	margin:0;
+}
+
+h2 { 
+	font-size:14px; 
+	color: #333; 
+	font-weight: lighter;
+	margin:10px 0 10px 0;
+}
+
+p { 
+	margin:10px 0 10px 0;
+	font-size: 14px;
+}
+
+table tr th, table tr td{
+	font-size: 13px;
+}
+
+ul { 
+	padding:0px; 
+	margin:0px; 
+	line-height:25px; 
+}
+
+li {
+	background:url(../../../gera_file.php?Url=layout/1/img/bullet1.jpg) no-repeat 0px 10px; 
+	list-style:none;
+	padding-left:10px; 
+}
+
+.title, .title b, .comentario{
+	font-family: Tahoma;
+	font-size: 10px;
+	color:#000;
+	margin:0;
+	font-weight:bold;
+}
+
+.title b{
+	color:#C10000;
+}
+
+.comentario{
+	font-weight:normal;
+}
+
+.sep{
+	width: 5px;
+	padding:0px; 
+	margin:0px; 
+}
+
+.FormPadrao, select, textarea, .agrupador{
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	background-color:#ffffff;
+	border: 1px #9999A2 solid;
+}
+
+.agrupador{
+	border-left:0;
+}
+
+.coluna2main table tr td{
+	marin:0;
+	padding:0;
+}
+
+.BotaoPadrao {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	background-color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #9999A2;
+	cursor: hand;
+}
+
+.coluna2main table tr td .FormPadrao,.coluna2main .BotaoPadrao{
+	font-size: 12px;
+}
+/*/////////////// Geral ///////////////*/
+
+#floatleft, #top, #main, #rp, #colunaL1, #colunaL, #colunaLmain, #coluna1, #coluna2, .coluna2main, #foto, #item, #item2 { 
+	float: left; 
+}
+
+#colunaL {
+width:350px;
+}
+
+#colunaLmain{
+padding:20px 20px 0 20px;
+background:url(../../../gera_file.php?Url=layout/1/img/bg_transparente.png);
+}
+
+#colunaL1 {
+width:260px;
+margin-right:2px;
+}
+
+#coluna1 {
+width:260px;
+margin-right:20px;
+}
+
+#coluna1 a img{
+	border:0;
+	text-decoration:none;
+}
+#avisos{
+	width:220px;
+}
+
+#coluna1main{
+padding:20px 20px 10px 20px;
+background:url(../../../gera_file.php?Url=layout/1/img/bg_transparente.png);
+width:220px;
+}
+
+#coluna1mainMenu{
+padding:20px 20px 10px 20px;
+background:url(../../../gera_file.php?Url=layout/1/img/bg_transparente.png);
+width:220px;
+}
+
+#coluna1main h2{
+color:#FFF
+}
+
+.quadroAvisoMenu{
+height:110px;
+width:220px;
+background:url(../../../gera_file.php?Url=layout/1/img/bg_marca_cliente.png) no-repeat;
+}
+.quadroAviso, .quadroAvisoCab, .quadroAvisoRod{
+	width: 100%;
+}
+
+.quadroAviso table{
+	width: 100%;
+}
+
+.quadroAviso table tr th{
+	border-bottom: 1px #333 solid;
+}
+
+.quadroAvisoCab .quadroAviso_esq_sup, .quadroAvisoCab .quadroAviso_dir{
+	width: 8px;
+	height: 8px;
+}
+.quadroAvisoCab tr td, .quadroAvisoRod tr td{
+	height: 8px;
+	font-size: 1px;
+}
+
+.quadroAviso .quadroAviso_esq, .quadroAvisoCab .quadroAviso_esq, .quadroAvisoRod .quadroAviso_esq{
+	background:url(../../../gera_file.php?Url=layout/1/img/bg_marca_cliente_esq.png) no-repeat;
+	width:8px;
+}
+
+.quadroAviso .quadroAviso_center, .quadroAvisoCab .quadroAviso_center, .quadroAvisoRod .quadroAviso_center{
+	background-color:#FFF;
+	text-align:center;
+	color: #333333;
+}
+
+.quadroAviso .quadroAviso_dir, .quadroAvisoCab .quadroAviso_dir, .quadroAvisoRod .quadroAviso_dir{
+	background:url(../../../gera_file.php?Url=layout/1/img/bg_marca_cliente_dir.png) no-repeat;
+	width:8px;
+}
+
+.quadroAvisoRod .quadroAviso_esq{
+	background-position: bottom left;
+}
+.quadroAvisoRod .quadroAviso_dir{
+	background-position: bottom left;
+}
+
+#avisos p{
+padding-bottom:10px;
+background:url(../../../gera_file.php?Url=layout/1/img/line_h.gif) repeat-x bottom;
+width: 200px;
+}
+
+#coluna2 {
+width:640px;
+}
+
+.coluna2main{
+background: #FFF;
+padding:20px 20px 0 20px;
+width:600px;
+}
+
+.coluna2main table{
+font-size: 12px;
+}
+
+.coluna2main #tableQuadro th{
+	border-top:1px #000 solid;
+	border-bottom:1px #000 solid;
+	text-align:left;
+}
+
+.coluna2main #tableQuadro td
+{
+	padding-right: 4px;
+}
+
+#titl{
+background: url(../../../gera_file.php?Url=layout/1/img/bg_transparente2.png);
+}
+
+#titl h1{
+color:#FFF
+}
+
+#tit, #titVoltar{
+background:#F2F2F2;
+}
+
+#titVoltar  { color:#333 }
+#titVoltar  a:link, #titVoltar  a:active, #titVoltar  a:visited { color:#333 ; text-decoration:none }
+#titVoltar  a:hover { color:#333 ; text-decoration:underline }
+
+#coluna2 {
+width:640px;
+}
+
+#item, #item2 {
+width:290px;
+background:url(../../../gera_file.php?Url=layout/1/img/line_h2.gif) bottom repeat-x;
+padding-bottom:10px;
+padding-top:10px;
+margin-bottom:10px;
+font-size:12px;
+}
+
+.separador {
+  background: url(../../../gera_file.php?Url=layout/1/img/line_h2.gif)  center repeat-x;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+#filtroBuscar table{
+
+}
+
+.campo{
+	border:1px #000 solid;
+}
+
+#item2 {
+margin-left:20px;
+}
+
+#foto{ margin-right:10px}
+
+#liMais li {
+	background: url(../../../gera_file.php?Url=layout/1/img/bullet_mais.png) no-repeat 0px 6px; 
+	font-size:12px;
+	list-style:none;
+	padding-left:16px; 
+}
+
+#liSeta li {
+	background: url(../../../gera_file.php?Url=layout/1/img/bullet_seta.png) no-repeat 0px 6px; 
+	font-size:12px;
+	list-style:none;
+	padding-left:16px;
+	font-weight:bold
+}
+
+#carregando{	
+	background-color: #AEAEAE;
+	color: #AEAEAE;
+	display: none;
+	background-image: url(../../../img/estrutura_sistema/carregando.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+    position: fixed !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    height:100%;
+    opacity: 0.6;
+    filter: alpha(opacity = 80);
+    cursor:wait;
+}

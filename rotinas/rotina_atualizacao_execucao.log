@@ -1,0 +1,180 @@
+  PID  TT  STAT      TIME COMMAND
+    0  ??  DLs   88:06.30 [kernel]
+    1  ??  SLs    1:06.92 /sbin/init --
+    2  ??  DL     0:00.02 [g_event]
+    3  ??  RL    66:42.07 [g_up]
+    4  ??  DL    77:47.02 [g_down]
+    5  ??  DL     0:00.00 [sctp_iterator]
+    6  ??  DL    18:45.38 [pagedaemon]
+    7  ??  DL     0:02.21 [vmdaemon]
+    8  ??  RL     0:00.03 [pagezero]
+    9  ??  DL     0:40.91 [bufdaemon]
+   10  ??  DL     0:00.00 [audit]
+   11  ??  RL   46393:35.47 [idle]
+   12  ??  WL   263:01.11 [intr]
+   13  ??  DL     6:48.78 [yarrow]
+   14  ??  DL     4:33.93 [vnlru]
+   15  ??  DL    14:35.77 [syncer]
+   16  ??  DL     4:36.55 [softdepflush]
+   17  ??  DL     3:29.27 [schedcpu]
+  461  ??  Is     0:00.01 /sbin/devd
+  602  ??  Ss     0:14.19 /usr/sbin/syslogd -l /var/run/log -l /var/named/var/r
+  678  ??  Ss   456:34.23 /usr/sbin/named -t /var/named -u bind
+  812  ??  Ss     6:17.87 /usr/local/sbin/nmbd -D -s /usr/local/etc/smb.conf
+  816  ??  Is     0:10.46 /usr/local/sbin/smbd -D -s /usr/local/etc/smb.conf
+  917  ??  I      0:00.03 /usr/local/sbin/smbd -D -s /usr/local/etc/smb.conf
+  918  ??  Is     0:17.38 proftpd: (accepting connections) (proftpd)
+  939  ??  IWs    0:00.00 /bin/sh /usr/local/bin/mysqld_safe --defaults-extra-f
+ 1467  ??  S    3665:29.71 [mysqld]
+ 1482  ??  Ss     2:38.75 /usr/local/sbin/httpd -DNOHTTPACCEPT
+ 1510  ??  Is     0:10.32 /usr/sbin/sshd -u0 -4
+ 1519  ??  Ss     0:15.30 /usr/sbin/cron -s
+ 1549  ??  Is     0:00.00 /usr/sbin/inetd -wW -C 60
+37985  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38181  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38256  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38343  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38345  ??  R    2317:45.74 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38346  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38349  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38374  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38375  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38376  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38378  ??  R    2325:56.43 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38411  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38425  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38440  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38441  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38460  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38462  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38474  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38477  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38478  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38479  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38490  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38521  ??  R    2312:39.89 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38522  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38545  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38561  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38565  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38586  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38638  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38651  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38672  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38674  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38690  ??  R    2303:23.85 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38691  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38748  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38788  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38813  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38827  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38872  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38875  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38892  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38902  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38903  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38904  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38917  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38918  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38932  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38948  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38963  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38970  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38971  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38994  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38995  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38997  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+38998  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39002  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39006  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39007  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39008  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39074  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39077  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39078  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39084  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39119  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39120  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39121  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39133  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39144  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39145  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39148  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39162  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39163  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39174  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39179  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39203  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39204  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39205  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39229  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39232  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39233  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39234  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39262  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39266  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39269  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39303  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39311  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39324  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39325  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39326  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39338  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39339  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39340  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39364  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39365  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39366  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39367  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39381  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39382  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39413  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39425  ??  R    2288:27.99 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39472  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39476  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+39504  ??  IW     0:00.00 /usr/local/sbin/httpd -DNOHTTPACCEPT
+48570  ??  I      0:02.29 cron: running job (cron)
+48574  ??  Is     0:00.01 /bin/sh /backup/backup_brutos-diario.sh
+48592  ??  Is     0:01.56 /usr/sbin/sendmail -FCronDaemon -odi -oem -oi -t
+50115  ??  I      0:00.32 cron: running job (cron)
+50119  ??  Is     0:00.01 /bin/sh /backup/backup_zeus-diario.sh
+50137  ??  Is     0:00.17 /usr/sbin/sendmail -FCronDaemon -odi -oem -oi -t
+51047  ??  R    153:31.91 tar -jvcf /backup/zip/brutos.conectlan.net.br-www-201
+51425  ??  R    146:30.30 tar -jvcf /backup/zip/zeus.conectlan.net.br-www-20130
+51652  ??  S      0:02.77 cron: running job (cron)
+51656  ??  Is     0:00.01 /bin/sh /backup/backup_spider-diario.sh
+51674  ??  Ss     0:01.45 /usr/sbin/sendmail -FCronDaemon -odi -oem -oi -t
+52084  ??  R    135:51.39 tar -jvcf /backup/zip/spider.conectlan.net.br-www-201
+59286  ??  S      0:01.82 /usr/local/sbin/smbd -D -s /usr/local/etc/smb.conf
+59746  ??  I      0:04.26 /usr/local/sbin/smbd -D -s /usr/local/etc/smb.conf
+62325  ??  S      0:01.88 /usr/local/sbin/smbd -D -s /usr/local/etc/smb.conf
+63206  ??  S      0:00.24 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63343  ??  S      0:00.05 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63428  ??  S      0:00.05 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63429  ??  I      0:00.05 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63430  ??  I      0:00.05 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63431  ??  I      0:00.03 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63433  ??  I      0:00.01 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63434  ??  S      0:00.04 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63435  ??  S      0:00.04 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63443  ??  Is     0:00.03 sshd: douglas [priv] (sshd)
+63457  ??  S      0:02.21 sshd: douglas@pts/0 (sshd)
+63483  ??  S      0:00.05 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63484  ??  S      0:00.01 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63485  ??  S      0:00.01 /usr/local/sbin/httpd -DNOHTTPACCEPT
+63490  ??  S      0:00.00 /sbin/init --
+63492  ??  S      0:00.01 cron: running job (cron)
+63493  ??  Ss     0:00.17 /usr/local/bin/php /public/www/dominios/desenvolvimen
+63495  ??  R      0:00.00 ps -ax
+ 1578  v0  Is+    0:00.01 /usr/libexec/getty Pc ttyv0
+ 1579  v1  Is+    0:00.01 /usr/libexec/getty Pc ttyv1
+ 1580  v2  Is+    0:00.01 /usr/libexec/getty Pc ttyv2
+ 1581  v3  Is+    0:00.01 /usr/libexec/getty Pc ttyv3
+ 1582  v4  Is+    0:00.01 /usr/libexec/getty Pc ttyv4
+ 1583  v5  Is+    0:00.01 /usr/libexec/getty Pc ttyv5
+ 1584  v6  Is+    0:00.01 /usr/libexec/getty Pc ttyv6
+ 1585  v7  Is+    0:00.01 /usr/libexec/getty Pc ttyv7
+63458   0  Is     0:00.01 -sh (sh)
+63461   0  I      0:00.01 su
+63463   0  I      0:00.06 _su (csh)
+63487   0  R+     0:03.91 cp -v -r www www.2542

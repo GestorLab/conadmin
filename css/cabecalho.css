@@ -1,0 +1,92 @@
+body{
+	background-image:url(../img/estrutura_sistema/bck_cab.gif);
+	background-repeat: repeat-x;
+	margin: 0;
+	font: normal 10px Verdana, Arial, Times;
+	color: #000;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+img{
+	border: 0;
+}
+input{
+	outline: none;
+}
+#logo{
+	float: left;
+}
+#info{
+	margin: 0 5px 0 225px;
+	height: 60px;
+}
+#info table{
+	width: 100%;
+	height: 38px;
+}
+#info table tr td{
+	height: 19px;
+}
+#info table tr .l1_cl1, #info table tr .l1_cl2, #info table tr .l3_cl1, #info table tr .l3_cl2{
+	width: 70%;
+}
+#info table tr .l1_cl1, #info table tr .l1_cl2, #info table tr .l3_cl2{	
+	font-weight: bold;
+}
+#info table tr .l1_cl1, #info table tr .l3_cl1, #info table tr .l2_cl1{
+	text-align:left;
+}
+#info table tr .l1_cl2, #info table tr .l3_cl2, #info table tr .l2_cl3{
+	text-align:right;
+}
+#info table tr .l2_cl1, #info table tr .l2_cl3{
+	width: 30%;
+}
+#info #sair, #info .nomeModulo, #info .nomeModuloLeft, #info .nomeModuloRight{
+	margin-top: 3px;
+}
+#info #sair{
+	float: right;
+	font-weight: bold;
+}
+#info .nomeModulo, #info .nomeModuloLeft, #info .nomeModuloRight{
+	float: left;
+}
+#info .nomeModulo{
+	background-color: #004492;
+	text-align:center;
+	color: #FFF;
+	height: 16px;
+	font-weight: bold;
+	padding: 3px 15px 0 15px;
+}
+#info .nomeModuloLeft, #info .nomeModuloRight{
+	height: 19px;
+	width: 11px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#info .nomeModuloLeft{
+	background-image: url(../img/estrutura_sistema/nm_mod_l.gif);
+}
+#info .nomeModuloRight{
+	background-image: url(../img/estrutura_sistema/nm_mod_r.gif);
+	margin-right: 1px;
+}
+.cp_tit{
+	background-color: #004492;
+	color: #FFF;
+	padding: 5px;
+	text-align:left;
+	font-weight: bold;
+	font-size:10px;
+	color:#FFF;
+}
+.cp_tit a, .cp_tit a:hover{
+	color: #FFF;	
+}
