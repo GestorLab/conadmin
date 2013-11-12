@@ -1,15 +1,69 @@
 jQuery(document).ready(function(){
 	var $ = jQuery.noConflict();
 	$('input[name=IdServico]').on('change focus', function(){
-		alert($(this).val());
+		var IdServico = $(this).val();
+		//alert($(this).val());
+		$('#cp_device').show();
+		addDevice(IdServico);
 	});
 	
-	$("body").on('click', 'tr[id^=listaDados]', function(){
+	$("body").on('click', '.listaDadosServico', function(){
 		var id = $(this).attr('id').split("_");
 		var IdServico = id[2];
-		alert(IdServico);
+		
+		$('#cp_device').show();
+		
+		addDevice(IdServico);
+		//alert(IdServico);
+		/*$.ajax({
+			dataType: 'html',
+			type: 'POST',
+			url: 'xml/contrato_device.php',
+			data: {IdServico: IdServico},
+			success: function(data){
+				//alert(data);
+				if($('#device option').length == 1){
+					$('#device').append(data);
+				}
+			}
+		});*/
+	});
+	
+	$('#device').change(function(){
+		var IdDevice = $(this).val();
+		//alert($(this).val());
+		$.ajax({
+			dataType: 'html',
+			type: 'POST',
+			url: 'xml/contrato_device_porta.php',
+			data: {IdDevice: IdDevice},
+			success: function(data){
+				//alert(data);
+				$("#porta option:not(:first)").remove();
+				//if($("#porta option").length == 1){
+					$('#porta').append(data);
+				//}
+			}
+		});
 	});
 });
+(function($){
+	addDevice = function(IdServico){
+		//var IdServico = $(this).val();
+		$.ajax({
+			dataType: 'html',
+			type: 'POST',
+			url: 'xml/contrato_device.php',
+			data: {IdServico: IdServico},
+			success: function(data){
+				//alert(data);
+				if($('#device option').length == 1){
+					$('#device').append(data);
+				}
+			}
+		});
+	}
+})(jQuery);
    function inicia(){
 		status_inicial();
 		document.formulario.IdContrato.focus();

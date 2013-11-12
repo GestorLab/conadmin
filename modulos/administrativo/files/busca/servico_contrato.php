@@ -179,7 +179,7 @@
 												if(Valor == '')	Valor = 0;
 												Valor	=	formata_float(Valor).replace(".",",");
 												
-												dados += "\n<tr style='background-color:#FFF' id='listaDados_td_"+IdServico+"' onClick='aciona_busca_servico(this,"+IdServico+")'>";
+												dados += "\n<tr style='background-color:#FFF' id='listaDados_td_"+IdServico+"' class='listaDadosServico' onClick='aciona_busca_servico(this,"+IdServico+")'>";
 												dados += 	"\n<td>"+IdServico+"</td><td>"+DescricaoServico+"</td><td class='valor'>"+Valor+"</td>";
 												dados += "\n</tr>";
 											}

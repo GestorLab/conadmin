@@ -962,6 +962,31 @@
 					<div id='cp_tit'><?=dicionario(262)?></div>
 					<table id='tabelaParametro' style='margin:0;'><tr><td></td></tr></table>
 				</div>
+				<div id='cp_device' style='margin-bottom:0; display:none'>
+					<div id='cp_tit'>Device</div>
+					<table id="tabelaDevice">
+						<tr>
+							<td class="find">&nbsp;</td>
+							<td class="descCampo">Device</td>
+							<td class="separador">&nbsp;</td>
+							<td class="descCampo">Porta</td>
+						</tr>
+						<tr>
+							<td class="find">&nbsp;</td>
+							<td class="campo">
+								<select id="device" name="device" style="width: 405px;" onFocus="Foco(this,'in','auto')"  onBlur="Foco(this,'out')">
+									<option value=""></option>
+								</select>
+							</td>
+							<td class="separador">&nbsp;</td>
+							<td class="campo">
+								<select id="porta" name="porta" style="width: 405px;" onFocus="Foco(this,'in','auto')"  onBlur="Foco(this,'out')">
+									<option value=""></option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</div>
 				<div id='cp_parametrosLocalCobranca' style='margin-bottom:0; display:none'>
 					<div id='cp_tit'><?=dicionario(263)?></div>
 					<table id='tabelaParametroLocalCobranca'>
