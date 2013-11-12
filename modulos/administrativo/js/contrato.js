@@ -1,5 +1,17 @@
 jQuery(document).ready(function(){
 	var $ = jQuery.noConflict();
+	
+	alert($('input[name=IdContrato]').val());
+	
+	if($('input[name=IdContrato]').val() != ""){
+		if($('input[name=IdServico]').val() != ""){
+			var IdServico = $('input[name=IdServico]').val();
+			alert(IdServico);
+			$('#cp_device').show();
+			addDevice(IdServico);
+		}
+	}
+	
 	$('input[name=IdServico]').on('change focus', function(){
 		var IdServico = $(this).val();
 		//alert($(this).val());

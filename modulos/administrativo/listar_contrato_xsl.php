@@ -53,6 +53,7 @@
 		<link rel = 'stylesheet' type = 'text/css' href = '../../css/conteudo.css' />
 		<link rel = 'stylesheet' type = 'text/css' href = '../../css/default.css' />
 		<link rel = 'stylesheet' type = 'text/css' href = '../../css/impress.css' media='print' />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script type = 'text/javascript' src = '../../js/funcoes.js'></script>
 		<script type = 'text/javascript' src = '../../js/incremental_search.js'></script>
 		<script type = 'text/javascript' src = '../../js/mensagens.js'></script>
