@@ -1,82 +1,4 @@
-jQuery(document).ready(function(){
-	var $ = jQuery.noConflict();
-	
-	alert($('input[name=IdContrato]').val());
-	
-	if($('input[name=IdContrato]').val() != ""){
-		if($('input[name=IdServico]').val() != ""){
-			var IdServico = $('input[name=IdServico]').val();
-			alert(IdServico);
-			$('#cp_device').show();
-			addDevice(IdServico);
-		}
-	}
-	
-	$('input[name=IdServico]').on('change focus', function(){
-		var IdServico = $(this).val();
-		//alert($(this).val());
-		$('#cp_device').show();
-		addDevice(IdServico);
-	});
-	
-	$("body").on('click', '.listaDadosServico', function(){
-		var id = $(this).attr('id').split("_");
-		var IdServico = id[2];
-		
-		$('#cp_device').show();
-		
-		addDevice(IdServico);
-		//alert(IdServico);
-		/*$.ajax({
-			dataType: 'html',
-			type: 'POST',
-			url: 'xml/contrato_device.php',
-			data: {IdServico: IdServico},
-			success: function(data){
-				//alert(data);
-				if($('#device option').length == 1){
-					$('#device').append(data);
-				}
-			}
-		});*/
-	});
-	
-	$('#device').change(function(){
-		var IdDevice = $(this).val();
-		//alert($(this).val());
-		$.ajax({
-			dataType: 'html',
-			type: 'POST',
-			url: 'xml/contrato_device_porta.php',
-			data: {IdDevice: IdDevice},
-			success: function(data){
-				//alert(data);
-				$("#porta option:not(:first)").remove();
-				//if($("#porta option").length == 1){
-					$('#porta').append(data);
-				//}
-			}
-		});
-	});
-});
-(function($){
-	addDevice = function(IdServico){
-		//var IdServico = $(this).val();
-		$.ajax({
-			dataType: 'html',
-			type: 'POST',
-			url: 'xml/contrato_device.php',
-			data: {IdServico: IdServico},
-			success: function(data){
-				//alert(data);
-				if($('#device option').length == 1){
-					$('#device').append(data);
-				}
-			}
-		});
-	}
-})(jQuery);
-   function inicia(){
+	function inicia(){
 		status_inicial();
 		document.formulario.IdContrato.focus();
 	}
@@ -2830,3 +2752,75 @@ jQuery(document).ready(function(){
 	}
 	
 	//verificarPermissaoEdicao(document.formulario.PermissaoEditarContrato.value,document.formulario.PermissaoEditarParametroContrato.value);
+	
+	
+	jQuery(document).ready(function(){
+		var $ = jQuery.noConflict();
+		//IdServico
+		alert($('input[name=IdServico]').val());
+		/*$(':input[name=IdContrato]').unload(function(){
+			alert($(this).val() + "akiii");
+		});*/
+		//alert($('input[name=IdContrato]').val());
+		/*$(window).on('beforeunload', 'body', function(){
+			alert($('input[name=IdContrato]').val());
+		});*/
+		
+		if($('input[name=IdContrato]').val() != ""){
+			if($('input[name=IdServico]').val() != ""){
+				var IdServico = $('input[name=IdServico]').val();
+				alert(IdServico);
+				$('#cp_device').show();
+				addDevice(IdServico);
+			}
+		}
+		
+		$('input[name=IdServico]').on('change focus', function(){
+			var IdServico = $(this).val();
+			//alert($(this).val());
+			$('#cp_device').show();
+			addDevice(IdServico);
+		});
+		
+		$("body").on('click', '.listaDadosServico', function(){
+			var id = $(this).attr('id').split("_");
+			var IdServico = id[2];
+			$('#cp_device').show();
+			addDevice(IdServico);
+		});
+		
+		$('#device').change(function(){
+			var IdDevice = $(this).val();
+			//alert($(this).val());
+			$.ajax({
+				dataType: 'html',
+				type: 'POST',
+				url: 'xml/contrato_device_porta.php',
+				data: {IdDevice: IdDevice},
+				success: function(data){
+					//alert(data);
+					$("#porta option:not(:first)").remove();
+					//if($("#porta option").length == 1){
+						$('#porta').append(data);
+					//}
+				}
+			});
+		});
+	});
+	(function($){
+		addDevice = function(IdServico){
+			//var IdServico = $(this).val();
+			$.ajax({
+				dataType: 'html',
+				type: 'POST',
+				url: 'xml/contrato_device.php',
+				data: {IdServico: IdServico},
+				success: function(data){
+					//alert(data);
+					if($('#device option').length == 1){
+						$('#device').append(data);
+					}
+				}
+			});
+		}
+	})(jQuery);

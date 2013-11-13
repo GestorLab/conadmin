@@ -983,6 +983,7 @@
 								<select id="porta" name="porta" style="width: 405px;" onFocus="Foco(this,'in','auto')"  onBlur="Foco(this,'out')">
 									<option value=""></option>
 								</select>
+								<input type="hidden" id="Id_Contrato" value="" />
 							</td>
 						</tr>
 					</table>
